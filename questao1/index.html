@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div>
+        <div class="input-wrapper">
+          <label for="first_number">Primeiro número</label>
+          <input type="number" name="first_number" id="first_number" />
+        </div>
+        <div class="input-wrapper">
+          <label for="second_number">Segundo número</label>
+          <input type="number" name="second_number" id="second_number" />
+        </div>
+      </div>
+      <div>
+        <button onclick="BotaoSomar()">Somar</button>
+        <div id="soma_res"></div>
+        <button onclick="botaoComparar()">Comparar</button>
+        <div id="comparar_res"></div>
+      </div>
+    </main>
+  </body>
+</html>
+<script src="logic.js"></script>
